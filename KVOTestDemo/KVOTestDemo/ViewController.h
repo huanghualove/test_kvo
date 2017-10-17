@@ -11,5 +11,7 @@
 @interface ViewController : UIViewController
 
 
+- (void)hh_observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context;
+
 @end
 
